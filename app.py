@@ -37,7 +37,7 @@ def kpi_card(title, value, color):
     )
 
 # Load Data
-df = pd.read_csv("data/samplesuperstore.csv")
+df = pd.read_csv("samplesuperstore.csv")
 
 
 st.subheader("Dataset Preview")
